@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class Parametercheck {
+public class Parametercheck greens{
 public WebDriver driver;
 	
 	@BeforeMethod
