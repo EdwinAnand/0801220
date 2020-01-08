@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17230" started-at="2020-01-07T04:05:24Z" finished-at="2020-01-07T04:05:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17230" started-at="2020-01-07T04:05:24Z" finished-at="2020-01-07T04:05:41Z">
+      <class name="com.mavenproject.com.firstproject.Parametercheck">
+        <test-method status="PASS" signature="launch()[pri:0, instance:com.mavenproject.com.firstproject.Parametercheck@4f933fd1]" name="launch" is-config="true" duration-ms="14423" started-at="2020-01-07T04:05:24Z" finished-at="2020-01-07T04:05:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String)[pri:0, instance:com.mavenproject.com.firstproject.Parametercheck@4f933fd1]" name="verifyLogin" duration-ms="2689" started-at="2020-01-07T04:05:38Z" finished-at="2020-01-07T04:05:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+      </class> <!-- com.mavenproject.com.firstproject.Parametercheck -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
